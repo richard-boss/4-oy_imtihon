@@ -1,0 +1,86 @@
+.auth{
+    width: 100%;
+    height: 854px;
+    background-image: url("./images/bg-log.jpg");
+    margin: 0 auto;
+    padding: 0;
+}
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+.container{
+    padding: 198px 490px 150px;
+}
+.email{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: none;
+    margin: 0 0 20px;
+    width: 300px;
+    height: 45px;
+    padding-left: 50px;
+}
+.password{
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin: 0;
+    width: 300px;
+    height: 45px;
+    padding-left: 50px;
+}
+.submit{
+    margin-top: 43px;
+    width: 300px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-img{
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+.submit p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #0D75FF;
+}
+.userr{
+    position: relative;
+    top: 34px;
+    right: -12px;
+}
+.passwordd{
+    position: relative;
+    right: 0;
+    top: 98px;
+    right: 13px;
+}
+.errr{
+    display: none;
+}
+
+.p-text {display: block;
+    text-align:right;
+color: #FFFFFF;
+margin-top: 5px;
+}
